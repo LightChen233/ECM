@@ -1,0 +1,13 @@
+We denote each cell by its coordinates $(r, c)$, where $r$ represents the row and $c$ represents the column. Turbo’s objective is to reach any cell in the last row while avoiding monsters, knowing only that each row from row 2 to row 2024 has exactly one monster, and each column has at most one monster.
+
+### Strategy and Analysis
+1. **Initial Setup**: Turbo does not know where the monsters are, but with each attempt, he gains knowledge about their locations. Thus, Turbo can leverage each failed attempt to map out which cells contain monsters.
+
+2. **First Attempt**: Turbo chooses a path from the first row to the last row, attempting to reach the last row without encountering a monster. If he hits a monster, he records the position of that monster and returns to the first row.
+
+3. **Second Attempt**: On the second attempt, Turbo uses the knowledge from the first attempt to avoid previously encountered monsters. He tries a different path to maximize his chances of reaching the last row. If he encounters another monster, he again records its position.
+
+4. **Third Attempt**: By the third attempt, Turbo has enough information about the monster locations in various rows and columns. Given that each column contains at most one monster and that he has mapped out multiple monster locations, he can now carefully select a path that avoids all known monsters.
+
+### Conclusion
+The minimum number of attempts required for Turbo to guarantee reaching the last row is $ n = 3 $. With this strategy, he systematically explores different paths and avoids known monster locations, ensuring success on or before the third attempt regardless of monster placements.

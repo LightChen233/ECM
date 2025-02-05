@@ -1,0 +1,19 @@
+[ANSWER]  
+To solve the problem, we start by examining the conditions under which the gcd remains constant across different values of $ n $. 
+
+Let $ p $ be any prime factor of $ ab + 1 $, and assume $ p $ is coprime to both $ a $ and $ b $. Consider an integer $ n \geq N $ such that $ n \equiv -1 \pmod{p - 1} $. By Fermat's little theorem, this congruence implies:
+$$
+a^n + b \equiv a^{-1} + b = a^{-1}(1 + ab) \equiv 0 \pmod{p},
+$$
+$$
+b^n + a \equiv b^{-1} + a = b^{-1}(1 + ab) \equiv 0 \pmod{p}.
+$$
+Thus, $ p $ divides $ g $. By the Lemma, $ p $ must divide $ 2 \gcd(a, b) $, which implies $ p = 2 $. Therefore, $ ab + 1 $ must be a power of 2, meaning both $ a $ and $ b $ are odd numbers.
+
+Now, consider the case when $ (a, b) \neq (1, 1) $. Here, $ ab + 1 $ is divisible by 4, which gives $ \{a, b\} \equiv \{-1, 1\} \pmod{4} $. For any odd $ n \geq N $, we have:
+$$
+a^n + b \equiv b^n + a \equiv (-1) + 1 \equiv 0 \pmod{4},
+$$
+which implies $ 4 \mid g $. However, by the Lemma, we know that $ \nu_2(g) < \nu_2(2 \gcd(a, b)) = 1 $, leading to a contradiction.
+
+Thus, the only solution is when $ (a, b) = (1, 1) $.

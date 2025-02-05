@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Which Emmett's Mark actor also played in the HBO series \"The Wire\"?",
+        "answer": "John Doman",
+        "cot": [
+            "Step 1: Emmett's Mark is a 2002 American thriller film directed by Keith Snyder and starring Scott Wolf, Khandi Alexander, Talia Balsam, Sarah Clarke, John Doman, with Tim Roth and Gabriel Byrne.",
+            "Step 2: Among the cast of Emmett's Mark, John Doman is the only actor who also played in the HBO series \"The Wire\"."
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "Who directed the upcoming British action comedy film which has Johnny English as the first part? ",
+        "answer": "David Kerr",
+        "cot": [
+            "Step 1: Johnny English is a British series of action comedy film parodying the James Bond secret agent genre.",
+            "Step 2: Johnny English 3 is an upcoming British action comedy film directed by David Kerr, which has Johnny English as the first part."
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "What conference has the most valuable NBA franchise according to Forbes?",
+        "answer": "Western Conference",
+        "cot": [
+            "Step 1: According to Forbes, the most valuable NBA franchise is the Lakers as of 2017.",
+            "Step 2: The Lakers are in the Western Conference."
+
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "When did George Simpson's birthplace become a province?",
+        "answer": "1873",
+        "cot": [
+            "Step 1: George Simpson was a farmer and political figure on Prince Edward Island.",
+            "Step 2: Prince Edward Island became a province in 1873."
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "Paolo Rocca is a CEO of the conglomerate founded in what Italian city in 1945",
+        "answer": "Milan",
+        "cot": [
+            "Step 1: Paolo Rocca (born 1952) is an Argentine-Italian businessman, CEO of the Techint Group.",
+            "Step 2: Techint is an Italian-Argentine conglomerate founded in Milan in 1945."
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "David Harris, an Australian actor and singer, starred opposite of which actor in \"Les Miserables\" who is also a distinguished professor in musical theater?",
+        "answer": "Terrence Mann",
+        "cot": [
+            "Step 1: David Harris (born 1975) is an Australian actor and singer, he starred as Jean Valjean in \"Les Miserables\".",
+            "Step 2: In \"Les Miserables\", he starred opposite of Terrence Mann, who is also a distinguished professor in musical theater."
+
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "Chikku Bhukku is based on a 2003 movie, which was directed by whom?",
+        "answer": "Kwak Jae-yong",
+        "cot": [
+            "Step 1: Chikku Bhukku is a 2010 Indian Tamil romantic drama film directed by K. Manigandan.",
+            "Step 2: The movie is based on the 2003 South Korean movie \"The Classic\", which was directed by Kwak Jae-yong."
+        ],
+        "type": "bridge",
+        "hops": 2
+    },
+    {
+        "question": "Ben Moore, is an American composer whose works include art song, musical theatre, cabaret, chamber music, choral music and opera, his song cycles include which song, commissioned by the Marilyn Horne Foundation, Horne was an American mezzo-soprano opera singer?",
+        "answer": "So Free Am I",
+        "evidence": [
+            "Marilyn Horne (born January 16, 1934) is an American mezzo-soprano opera singer.",
+            "His song cycles include \"So Free Am I\" commissioned by the Marilyn Horne Foundation, \"Ode to a Nightingale\" and \"Dear Theo\"."
+        ],
+        "cot": [
+            "Step 1: Ben Moore (born 1960) is an American composer whose works include art song, musical theatre, cabaret, chamber music, choral music and opera.",
+            "Step 2: His song cycles commissioned by the Marilyn Horne Foundation include \"So Free Am I\" ."
+        ],
+        "type": "bridge",
+        "hops": 2
+    }
+]

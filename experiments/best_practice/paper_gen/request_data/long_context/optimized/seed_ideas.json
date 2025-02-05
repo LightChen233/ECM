@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "distflashattn",
+        "Title": "DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training",
+        "Contribution": "DistFlashAttention introduces a distributed, memory-efficient attention mechanism that enables efficient training of long-context LLMs by optimizing memory use and improving processing speed. It achieves significant speedup and sequence length capabilities over existing methods like Ring Self-Attention and Megatron-LM with FlashAttention, making it ideal for large-scale models.",
+        "Interestingness": 6,
+        "Feasibility": 7,
+        "Novelty": 6
+    },
+    {
+        "Name": "mamba_linear_time_sequence_modeling",
+        "Title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+        "Contribution": "The authors introduce Mamba, a new sequence model architecture that replaces attention with a selective Structured State Space Model (SSM) mechanism, achieving efficient, high-throughput performance on long sequences. Mamba demonstrates state-of-the-art results across various modalities, including language and genomics, and outperforms comparable-sized Transformers while achieving linear scaling in sequence length.",
+        "Interestingness": 9,
+        "Feasibility": 8,
+        "Novelty": 8
+    },
+    {
+        "Name": "3",
+        "Title": "Memorization Capacity of Multi-Head Attention in Transformers",
+        "Contribution": "This paper examines the memorization capacity of multi-head attention mechanisms, revealing that an attention layer can memorize a substantial number of example sequences based on the number of heads and sequence length. By introducing assumptions distinct from general-position, the authors show how attention heads handle sequences differently, supporting their findings with synthetic data experiments.",
+        "Interestingness": 7,
+        "Feasibility": 7.5,
+        "Novelty": 7.5
+    },
+    {
+        "Name": "4",
+        "Title": "LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models",
+        "Contribution": "LongLoRA introduces an efficient fine-tuning method that extends large language models' context sizes with minimal computational overhead by using sparse local attention during training and leveraging parameter-efficient fine-tuning techniques. This approach effectively extends Llama2 models' context lengths to up to 100k on standard hardware, maintaining model architecture and compatibility with existing optimization methods.",
+        "Interestingness": 7,
+        "Feasibility": 8,
+        "Novelty": 7
+    },
+    {
+        "Name": "5",
+        "Title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+        "Contribution": "WebAgent, a pre-trained large language model (LLM)-driven agent, enhances autonomous web automation by learning from self-experience to complete tasks on real websites through instruction decomposition, task-relevant HTML summarization, and Python-generated actions. Leveraging Flan-U-PaLM and HTML-T5 models for planning and HTML understanding, WebAgent achieves a 50% success improvement on real websites and outperforms prior methods on benchmarks like MiniWoB and Mind2Web.",
+        "Interestingness": 9,
+        "Feasibility": 7.5,
+        "Novelty": 7.5
+    }
+]

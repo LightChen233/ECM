@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "os_world_benchmark",
+        "Title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+        "Contribution": "The paper introduces OSWorld, a versatile, scalable computer environment designed to benchmark multimodal agents in real-world, open-ended computer tasks across various operating systems. Through OSWorld, a benchmark of 369 tasks demonstrates that state-of-the-art agents significantly underperform compared to humans, highlighting areas like GUI grounding and operational knowledge as key challenges for developing effective computer assistants.",
+        "Interestingness": 9,
+        "Feasibility": 8,
+        "Novelty": 8
+    },
+    {
+        "Name": "a_real_world_webagent",
+        "Title": "A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",
+        "Contribution": "WebAgent, an LLM-driven agent, enhances autonomous web automation by learning from experience, decomposing tasks, summarizing HTML, and generating actionable Python code. Its architecture, incorporating Flan-U-PaLM and HTML-T5 models, achieves over 50% improvement in success on real websites and outperforms previous methods on the MiniWoB and Mind2Web benchmarks.",
+        "Interestingness": 9.5,
+        "Feasibility": 7.5,
+        "Novelty": 7.5
+    },
+    {
+        "Name": "meta_gpt_meta_programming",
+        "Title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+        "Contribution": "MetaGPT is a meta-programming framework that enhances LLM-based multi-agent systems by integrating standardized workflows to reduce logic inconsistencies and errors. By encoding Standardized Operating Procedures (SOPs) and using an assembly line paradigm, MetaGPT enables agents to specialize in tasks, improving the coherence of solutions in complex problem-solving scenarios.",
+        "Interestingness": 7,
+        "Feasibility": 10,
+        "Novelty": 8
+    },
+    {
+        "Name": "on_the_humantiy_of_conversation",
+        "Title": "On the Humanity of Conversational AI: Evaluating the Psychological Portrayal of LLMs",
+        "Contribution": "This study introduces PsychoBench, a framework for assessing psychological aspects of Large Language Models (LLMs) using thirteen clinical psychology scales categorized into personality traits, interpersonal relationships, motivational tests, and emotional abilities. It evaluates models like GPT-4 and LLaMA-2, employing jailbreak techniques to explore their intrinsic qualities beyond standard safety protocols.",
+        "Interestingness": 7.5,
+        "Feasibility": 7,
+        "Novelty": 7
+    },
+    {
+        "Name": "civ_realm_a_learning",
+        "Title": "CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents",
+        "Contribution": "This paper introduces CivRealm, a complex environment inspired by the Civilization game, designed to challenge decision-making agents in both learning and reasoning within an open-ended, stochastic world. Initial experiments reveal that while agents show reasonable performance in mini-games, they face difficulties progressing in the full game, highlighting the need for advanced reasoning and adaptability.",
+        "Interestingness": 7,
+        "Feasibility": 7.5,
+        "Novelty": 7
+    }
+]

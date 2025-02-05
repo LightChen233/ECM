@@ -1,0 +1,71 @@
+### Problem Statement
+
+We seek to identify all real numbers $ \alpha $ such that the sum
+
+$$
+S_n(\alpha) = \lfloor \alpha \rfloor + \lfloor 2\alpha \rfloor + \cdots + \lfloor n\alpha \rfloor
+$$
+
+is divisible by $ n $ for every positive integer $ n $. Here, $ \lfloor x \rfloor $ denotes the greatest integer less than or equal to $ x $.
+
+### Solution Outline
+
+1. **Establish that all integers satisfy the condition.**
+2. **Demonstrate that no other values of $ \alpha $ can satisfy the condition for all $ n $.**
+
+Let’s investigate each aspect in detail.
+
+#### Step 1: Integer Values for $ \alpha $
+
+Let us assume $ \alpha = 2m $, where $ m $ is an integer. For each integer $ k $ ranging from 1 to $ n $, we compute:
+
+$$
+\lfloor k \alpha \rfloor = \lfloor k \cdot 2m \rfloor = 2km.
+$$
+
+This leads us to the sum:
+
+$$
+S_n(2m) = 2m + 4m + \cdots + 2mn = 2m \cdot (1 + 2 + \cdots + n).
+$$
+
+Recognizing the summation of the first $ n $ natural numbers, we write:
+
+$$
+S_n(2m) = 2m \cdot \frac{n(n+1)}{2} = m \cdot n(n+1).
+$$
+
+Since $ m \cdot n(n+1) $ is evidently a multiple of $ n $, we conclude that **all even integer values of $ \alpha $ satisfy the condition**.
+
+#### Step 2: Proving That No Other Values Work
+
+Next, we examine whether other possible values of $ \alpha $ can satisfy the given divisibility condition.
+
+Assume $ \alpha $ is a non-integer and can be expressed as $ \alpha = k + \epsilon $, where $ k $ is an integer and $ 0 \leq \epsilon < 1 $. Then:
+
+$$
+\lfloor j \alpha \rfloor = \lfloor j(k + \epsilon) \rfloor = jk + \lfloor j \epsilon \rfloor.
+$$
+
+Thus, we rewrite the sum:
+
+$$
+S_n(\alpha) = k \cdot \frac{n(n+1)}{2} + \sum_{j=1}^{n} \lfloor j \epsilon \rfloor.
+$$
+
+Here, $ k \cdot \frac{n(n+1)}{2} $ is an integer, and the divisibility by $ n $ hinges on the behavior of $ \sum_{j=1}^{n} \lfloor j \epsilon \rfloor $.
+
+Consider the two cases for $ \epsilon $:
+
+1. **Case $ \epsilon = 0 $**  
+   If $ \epsilon = 0 $, then $ \alpha = k $ is an integer. We already established that only even integers satisfy the condition, thus excluding odd integers.
+
+2. **Case $ 0 < \epsilon < 1 $**  
+   If $ 0 < \epsilon < 1 $, then $ \lfloor j \epsilon \rfloor $ contributes a non-zero, non-integer part to the sum for $ j \geq 1 $, complicating the divisibility by $ n $. Specifically:
+   - For large $ n $, the accumulated non-integer components prevent $ S_n(\alpha) $ from being divisible by $ n $.
+
+Consequently, any non-integer $ \alpha $ fails to meet the required condition.
+
+### Conclusion
+
+The only valid solutions for $ \alpha $ that ensure the sum $ S_n(\alpha) $ is divisible by $ n $ for every positive integer $ n $ are **all even integers**. Therefore, the final answer is that **all even integers** are the solutions for $ \alpha $.

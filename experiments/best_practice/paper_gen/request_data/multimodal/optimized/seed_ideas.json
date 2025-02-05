@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "the_modality_focusing_hypothesis",
+        "Title": "The Modality Focusing Hypothesis: Towards Understanding Crossmodal Knowledge Distillation",
+        "Contribution": "This paper investigates the mechanisms behind crossmodal knowledge distillation (KD) and challenges its effectiveness as a universal tool for knowledge transfer across modalities. By analyzing failure cases and introducing the modality Venn diagram and focusing hypothesis, the study provides insights and directions for enhancing crossmodal KD in multimodal learning.",
+        "Interestingness": 8,
+        "Feasibility": 8,
+        "Novelty": 7.5
+    },
+    {
+        "Name": "visual_classification",
+        "Title": "M3CoT: A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought",
+        "Contribution": "The authors introduce M3CoT, a novel benchmark designed to address limitations in current Multi-modal Chain-of-Thought (MCoT) reasoning by incorporating multi-domain, multi-step, and multi-modal scenarios. Through extensive evaluations, they demonstrate that while Vision Large Language Models (VLLMs) perform well on previous benchmarks, they still struggle with M3CoT, highlighting the gap between VLLM and human performance in complex reasoning tasks.",
+        "Interestingness": 8,
+        "Feasibility": 8,
+        "Novelty": 8
+    },
+    {
+        "Name": "visual_instruction_tuning",
+        "Title": "Visual Instruction Tuning",
+        "Contribution": "The authors introduce LLaVA, a large multimodal model combining a vision encoder and LLM, by tuning on GPT-4-generated multimodal instruction-following data, enabling robust visual and language understanding. LLaVA demonstrates strong multimodal capabilities, achieving high accuracy on benchmarks and setting a new state-of-the-art in Science QA when paired with GPT-4.",
+        "Interestingness": 7.5,
+        "Feasibility": 9,
+        "Novelty": 7
+    },
+    {
+        "Name": "math_vista",
+        "Title": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+        "Contribution": "MathVista is a benchmark designed to assess mathematical reasoning in visual contexts, offering 6,141 tasks from various datasets and three newly created ones to challenge large multimodal models. Evaluations reveal that while GPT-4V excels with an accuracy of 49.9%, it still lags behind human performance, emphasizing MathVista's potential in advancing AI's problem-solving abilities in mathematically and visually complex tasks.",
+        "Interestingness": 8,
+        "Feasibility": 7.5,
+        "Novelty": 7.5
+    },
+    {
+        "Name": "image_captioners",
+        "Title": "Image Captioners Are Scalable Vision Learners Too",
+        "Contribution": "This paper demonstrates that image captioning, contrary to prior beliefs, is a highly effective pretraining strategy, yielding vision encoders competitive with, or superior to, contrastive pretraining for both classification and vision-language tasks. Through a controlled comparison, the authors show that captioning scales well with model size and data, challenging the dominance of contrastive methods for large multimodal models.",
+        "Interestingness": 9,
+        "Feasibility": 8,
+        "Novelty": 8
+    }
+]

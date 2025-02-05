@@ -1,0 +1,43 @@
+[
+    {
+        "Name": "react_synergizing",
+        "Title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "Contribution": "This paper introduces ReAct, an approach enabling large language models (LLMs) to generate interleaved reasoning traces and actions, enhancing both planning and information retrieval capabilities. ReAct achieves improved performance and interpretability on language and decision-making tasks, outperforming state-of-the-art methods in accuracy and human-like task-solving trajectories.",
+        "Interestingness": 9,
+        "Feasibility": 9,
+        "Novelty": 8
+    },
+    {
+        "Name": "selection_inference",
+        "Title": "Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning",
+        "Contribution": "This study demonstrates that LLMs, while strong in single-step reasoning, struggle with multi-step logic, but the proposed Selection-Inference (SI) framework significantly improves their performance in complex reasoning tasks. Using a 7B parameter LLM in the SI framework enhances accuracy over 100% compared to baseline, even outperforming a 280B model, and provides interpretable reasoning traces for increased trustworthiness.",
+        "Interestingness": 7,
+        "Feasibility": 8,
+        "Novelty": 7
+    },
+    {
+        "Name": "why_think_step_by_step",
+        "Title": "Why think step by step? Reasoning emerges from the locality of experience",
+        "Contribution": "This work demonstrates that chain-of-thought reasoning in language models enhances accuracy by allowing intermediate steps that leverage local statistical relationships within training data. The study finds that reasoning through intermediate variables improves performance when data contains clusters of interdependent variables, making it more data-efficient than training on complete datasets.",
+        "Interestingness": 8,
+        "Feasibility": 8,
+        "Novelty": 7.5
+    },
+    {
+        "Name": "unlocking_the_boundary",
+        "Title": "Unlocking the Boundaries of Thought: A Reasoning Granularity Framework to Quantify and Optimize Chain-of-Thought",
+        "Contribution": "This work introduces a novel reasoning granularity framework (RGF) to quantify and optimize Chain-of-Thought (CoT) reasoning in large language models, addressing previous limitations in measurement and performance enhancement. Extensive experiments validate the framework’s effectiveness, offering insights into CoT strategy optimization and providing guidance on reasoning improvements in complex tasks.",
+        "Interestingness": 9,
+        "Feasibility": 9,
+        "Novelty": 7
+    },
+    {
+        "Name": "unlocking_the_boundary",
+        "Title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "Contribution": "The Tree of Thoughts (ToT) framework enhances language models’ problem-solving by allowing exploration of multiple reasoning paths and self-evaluation, addressing limitations of token-level, left-to-right inference. ToT significantly improved performance on tasks like Game of 24, Creative Writing, and Mini Crosswords, achieving a 74% success rate in Game of 24 compared to 4% with chain-of-thought prompting.",
+        "Interestingness": 7,
+        "Feasibility": 9,
+        "Novelty": 6.75
+
+    }
+]
